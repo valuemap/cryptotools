@@ -16,4 +16,4 @@ for i in range(35):
             if value > 0: #if any btc left on address, print details
                 print(priv_key)
                 print(address)
-                print(from_satoshis(value))
+                print(from_satoshis(value,'btc'))
