@@ -48,7 +48,6 @@ f.close()
 # - insert specific char or string somewhere or add at the end
 
 
-
 def check_priv_key(priv_key):
     try:
         address = privkey_to_address(priv_key)
